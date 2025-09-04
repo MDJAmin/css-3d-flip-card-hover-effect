@@ -54,12 +54,7 @@ body {
 
 .frontSide,
 .frontSide::before {
-  background: linear-gradient(
-    43deg,
-    rgb(65, 88, 208) 0%,
-    rgb(200, 80, 192) 46%,
-    rgb(255, 204, 112) 100%
-  );
+  background: linear-gradient(43deg, rgb(208, 65, 65) 0%, rgb(255, 204, 112) 100%);
 }
 
 .backSide,
@@ -97,4 +92,30 @@ body {
   100% {
     opacity: 0.3;
   }
+}
+
+.MDJAminDiv {
+  z-index: 4444;
+  position: fixed;
+  bottom: 5%;
+}
+
+.MDJAmin {
+  text-decoration: none;
+  border-bottom: 1px dashed rgb(231, 231, 231);
+  border-top: 1px dashed rgb(231, 231, 231);
+  /* border-bottom: 1px dashed rgb(44, 44, 44); */
+  /* border-top: 1px dashed rgb(44, 44, 44); */
+  padding: 4px 0;
+  /* color: rgba(44, 44, 44, 0.525); */
+  color: rgba(204, 204, 204, 0.814);
+  font-family: monospace;
+  font-style: italic;
+  font-size: 1.3em;
+  transition: all 0.5s;
+}
+
+.MDJAmin:hover {
+  /* color: #000000; */
+  color: white;
 }
